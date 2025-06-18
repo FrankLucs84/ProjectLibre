@@ -10,8 +10,9 @@ Guida completa al miglior software opensource di Project Management
 ---
 ## 4. Collegare le Attività: I Predecessori e i Legami
 ---
-
 ## 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto
+
+
 ### Guida Completa a ProjectLibre: Inizia Subito a Gestire i Tuoi Progetti!
 Sei pronto a portare la tua gestione progettuale a un nuovo livello, senza costi? **ProjectLibre** è la soluzione open-source che ti offre tutte le funzionalità essenziali per pianificare, monitorare e gestire i tuoi progetti, proprio come faresti con strumenti più complessi, ma con la flessibilità di una soluzione gratuita.
 
