@@ -41,6 +41,7 @@ Si aprirà una finestra dove dovrai inserire le informazioni fondamentali del tu
 Clicca **OK** per confermare e accedere all'interfaccia principale.
 
 [TORNA SU☝️](#top)
+
 ---
 <a id="due"></a>
 ### 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo {#due}
@@ -61,6 +62,7 @@ Nella parte superiore dell'interfaccia, troverai la "**Ribbon**", una barra degl
 Un aspetto fondamentale: se vedi un asterisco (\*) accanto al nome del tuo progetto nella parte superiore della finestra, significa che hai delle modifiche non salvate. Salva il tuo lavoro regolarmente cliccando sull'icona "**Salva**" o usando la scorciatoia **Ctrl+S**. I progetti vengono salvati con l'estensione predefinita `.pod`.
 
 [TORNA SU☝️](#top)
+
 ---
 <a id="tre"></a>
 ### 3. Gestire le Attività: Il Cuore del Tuo Progetto {#tre}
@@ -88,6 +90,7 @@ L'attività selezionata verrà rientrata, diventando una dipendenza dell'attivit
 * **Inserire una riga vuota**: Posizionati nella riga dove desideri inserire una nuova attività e clicca su "**Inserisci Attività**" nella Ribbon.
 
 [TORNA SU☝️](#top)
+
 ---
 <a id="quattro"></a>
 ### 4. Collegare le Attività: I Predecessori e i Legami {#quattro}
@@ -111,6 +114,7 @@ Ci sono diversi modi per creare i legami nel tuo progetto:
 Le dipendenze sono visualizzate come frecce nel Diagramma di Gantt, indicando il flusso logico del tuo progetto. Per eliminare un legame, puoi selezionare l'attività e rimuovere il numero di riga nella colonna "**Predecessori**" o selezionare la freccia nel Gantt e premere "**Canc**".
 
 [TORNA SU☝️](#top)
+
 ---
 <a id="cinque"></a>
 ### 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto {#cinque}
