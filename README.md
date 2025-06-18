@@ -1,11 +1,12 @@
 # ProjectLibre
 Guida completa al miglior software opensource di Project Management
 # Guida Completa a ProjectLibre: Inizia Subito a Gestire i Tuoi Progetti!
-## [1. Introduzione e Primo Avvio: La Tua Porta sul Project Management](#uno)
-## [2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo](#due)
-## [3. Gestire le Attività: Il Cuore del Tuo Progetto](#tre)
-## [4. Collegare le Attività: I Predecessori e i Legami](#quattro)
-## [5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto](#cinque)
+## Indice
+- [1. Introduzione e Primo Avvio: La Tua Porta sul Project Management](#uno)
+- [2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo](#due)
+- [3. Gestire le Attività: Il Cuore del Tuo Progetto](#tre)
+- [4. Collegare le Attività: I Predecessori e i Legami](#quattro)
+- [5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto](#cinque)
 
 ---
 
