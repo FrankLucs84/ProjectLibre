@@ -20,7 +20,7 @@ Sei pronto a portare la tua gestione progettuale a un nuovo livello, senza costi
 Questa guida ti accompagnerà passo dopo passo nell'esplorazione di ProjectLibre, partendo dalle basi fino alla comprensione del cruciale **Cammino Critico**, un concetto fondamentale per ogni Project Manager.
 
 ---
-<a id="uno"></a> [TORNA SU☝️](#top)
+<a id="uno"></a>
 ### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management
 ProjectLibre è un'alternativa gratuita e open-source a software come Microsoft Project. Essendo un progetto basato sulla community, avrai accesso a un'ampia documentazione e supporto online, un aspetto cruciale per risolvere dubbi e approfondire funzionalità.
 
@@ -40,6 +40,7 @@ Si aprirà una finestra dove dovrai inserire le informazioni fondamentali del tu
 
 Clicca **OK** per confermare e accedere all'interfaccia principale.
 
+[TORNA SU☝️](#top)
 ---
 <a id="due"></a>
 ### 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo {#due}
@@ -59,6 +60,7 @@ Nella parte superiore dell'interfaccia, troverai la "**Ribbon**", una barra degl
 #### Salvare il Tuo Lavoro
 Un aspetto fondamentale: se vedi un asterisco (\*) accanto al nome del tuo progetto nella parte superiore della finestra, significa che hai delle modifiche non salvate. Salva il tuo lavoro regolarmente cliccando sull'icona "**Salva**" o usando la scorciatoia **Ctrl+S**. I progetti vengono salvati con l'estensione predefinita `.pod`.
 
+[TORNA SU☝️](#top)
 ---
 <a id="tre"></a>
 ### 3. Gestire le Attività: Il Cuore del Tuo Progetto {#tre}
@@ -85,6 +87,7 @@ L'attività selezionata verrà rientrata, diventando una dipendenza dell'attivit
 * **Eliminare un'attività**: Seleziona l'attività e premi il tasto **Canc**.
 * **Inserire una riga vuota**: Posizionati nella riga dove desideri inserire una nuova attività e clicca su "**Inserisci Attività**" nella Ribbon.
 
+[TORNA SU☝️](#top)
 ---
 <a id="quattro"></a>
 ### 4. Collegare le Attività: I Predecessori e i Legami {#quattro}
@@ -107,6 +110,7 @@ Ci sono diversi modi per creare i legami nel tuo progetto:
 
 Le dipendenze sono visualizzate come frecce nel Diagramma di Gantt, indicando il flusso logico del tuo progetto. Per eliminare un legame, puoi selezionare l'attività e rimuovere il numero di riga nella colonna "**Predecessori**" o selezionare la freccia nel Gantt e premere "**Canc**".
 
+[TORNA SU☝️](#top)
 ---
 <a id="cinque"></a>
 ### 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto {#cinque}
@@ -122,3 +126,5 @@ ProjectLibre ti aiuta a identificare visivamente il cammino critico:
 * Le attività non critiche sono visualizzate in **blu**.
 
 Questa distinzione visiva ti permette di concentrare la tua attenzione sulle attività più sensibili per mantenere il progetto in linea con le scadenze. È importante notare come l'assegnazione di più predecessori a una singola attività possa influenzare la durata e il cammino critico, e come i legami tra attività raggruppate (sotto-attività) vengano considerati nel calcolo.
+
+[TORNA SU☝️](#top)
