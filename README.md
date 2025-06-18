@@ -17,7 +17,7 @@ Questa guida ti accompagnerà passo dopo passo nell'esplorazione di ProjectLibre
 
 ---
 
-### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management{#uno}
+### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management {#uno}
 ProjectLibre è un'alternativa gratuita e open-source a software come Microsoft Project. Essendo un progetto basato sulla community, avrai accesso a un'ampia documentazione e supporto online, un aspetto cruciale per risolvere dubbi e approfondire funzionalità.
 
 #### Scaricare e Installare ProjectLibre
