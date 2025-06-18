@@ -1,11 +1,11 @@
 # ProjectLibre
 Guida completa al miglior software opensource di Project Management
 # Guida Completa a ProjectLibre: Inizia Subito a Gestire i Tuoi Progetti!
-## 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management
-## 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo
-## 3. Gestire le Attività: Il Cuore del Tuo Progetto
-## 4. Collegare le Attività: I Predecessori e i Legami
-## 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto
+## [1. Introduzione e Primo Avvio: La Tua Porta sul Project Management](#uno)
+## [2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo](#due)
+## [3. Gestire le Attività: Il Cuore del Tuo Progetto](#tre)
+## [4. Collegare le Attività: I Predecessori e i Legami](#quattro)
+## [5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto](#cinque)
 
 ---
 
@@ -16,7 +16,7 @@ Questa guida ti accompagnerà passo dopo passo nell'esplorazione di ProjectLibre
 
 ---
 
-### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management
+### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management{#uno}
 ProjectLibre è un'alternativa gratuita e open-source a software come Microsoft Project. Essendo un progetto basato sulla community, avrai accesso a un'ampia documentazione e supporto online, un aspetto cruciale per risolvere dubbi e approfondire funzionalità.
 
 #### Scaricare e Installare ProjectLibre
@@ -37,7 +37,7 @@ Clicca **OK** per confermare e accedere all'interfaccia principale.
 
 ---
 
-### 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo
+### 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo{#due}
 L'interfaccia di ProjectLibre è progettata per essere intuitiva e funzionale. È suddivisa principalmente in due aree e una barra degli strumenti superiore:
 
 * **Tabella delle Attività (a sinistra)**: Questa è la tua area di lavoro principale per inserire e gestire i dettagli delle attività, come nomi, durate, date di inizio e fine, e predecessori.
@@ -56,7 +56,7 @@ Un aspetto fondamentale: se vedi un asterisco (\*) accanto al nome del tuo proge
 
 ---
 
-### 3. Gestire le Attività: Il Cuore del Tuo Progetto
+### 3. Gestire le Attività: Il Cuore del Tuo Progetto{#tre}
 Le attività sono i mattoni del tuo progetto. Imparare a gestirle efficacemente è essenziale per una pianificazione robusta.
 
 #### Inserire e Impostare le Attività
@@ -82,7 +82,7 @@ L'attività selezionata verrà rientrata, diventando una dipendenza dell'attivit
 
 ---
 
-### 4. Collegare le Attività: I Predecessori e i Legami
+### 4. Collegare le Attività: I Predecessori e i Legami{#quattro}
 Le dipendenze tra attività sono fondamentali per definire la sequenza logica del tuo progetto. Un'attività potrebbe non poter iniziare prima che un'altra sia completata.
 
 #### Tipi di Legami
@@ -104,7 +104,7 @@ Le dipendenze sono visualizzate come frecce nel Diagramma di Gantt, indicando il
 
 ---
 
-### 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto
+### 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto{#cinque}
 Come Project Manager, la comprensione del **Cammino Critico (Critical Path Method - CPM)** è fondamentale per la gestione dei tempi.
 
 #### Cos'è il Cammino Critico?
