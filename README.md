@@ -1,3 +1,4 @@
+<a id="inizio-pagina"></a>
 # ProjectLibre
 Guida completa al miglior software opensource di Project Management
 
@@ -6,129 +7,193 @@ Guida completa al miglior software opensource di Project Management
 ---
 
 ## Indice
-<a id="top"></a> 
-- [1. Introduzione e Primo Avvio: La Tua Porta sul Project Management](#uno)
-- [2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo](#due)
-- [3. Gestire le Attività: Il Cuore del Tuo Progetto](#tre)
-- [4. Collegare le Attività: I Predecessori e i Legami](#quattro)
-- [5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto](#cinque)
+- [1. Introduzione e Download del Software](#introduzione-download-guida)
+- [2. Creazione e Gestione del Primo Progetto](#creazione-gestione-progetto-guida)
+- [3. L'Interfaccia: Ribbon, Finestre e Schede](#interfaccia-ribbon-guida)
+- [4. Gestione delle Attività e della Work Breakdown Structure (WBS)](#gestione-attivita-wbs-guida)
+- [5. I Predecessori e i Legami tra Attività](#predecessori-legami-guida)
+- [6. Il Diagramma di Gantt](#diagramma-gantt-guida)
+- [7. Le Risorse](#risorse-guida)
+- [8. I Milestone](#milestone-guida)
+- [9. Le Baseline](#baseline-guida)
+- [10. La Critical Path Method (CPM) su ProjectLibre](#cpm-guida)
+- [11. I Report](#report-guida)
 
 ---
 
-Sei pronto a portare la tua gestione progettuale a un nuovo livello, senza costi? **ProjectLibre** è la soluzione open-source che ti offre tutte le funzionalità essenziali per pianificare, monitorare e gestire i tuoi progetti, proprio come faresti con strumenti più complessi, ma con la flessibilità di una soluzione gratuita.
+## Scaletta di Apprendimento di ProjectLibre (Aggiornata)
 
-Questa guida ti accompagnerà passo dopo passo nell'esplorazione di ProjectLibre, partendo dalle basi fino alla comprensione del cruciale **Cammino Critico**, un concetto fondamentale per ogni Project Manager.
+### 1. Introduzione e Download del Software
+* Comprendere cos'è ProjectLibre: un software gratuito e open-source, alternativa a Microsoft Project.
+* Capire l'importanza della community e della documentazione per il supporto.
+* Scaricare e installare il software da projectlibre.com o sourceforge.net.
 
----
-<a id="uno"></a>
-### 1. Introduzione e Primo Avvio: La Tua Porta sul Project Management
-ProjectLibre è un'alternativa gratuita e open-source a software come Microsoft Project. Essendo un progetto basato sulla community, avrai accesso a un'ampia documentazione e supporto online, un aspetto cruciale per risolvere dubbi e approfondire funzionalità.
+### 2. Creazione e Gestione del Primo Progetto
+* Avviare ProjectLibre e scegliere di creare un nuovo progetto.
+* Inserire le informazioni principali del progetto: nome, responsabile e data di avvio/fine.
+* Imparare a salvare il progetto (Ctrl+S o tasto "Salva") e riconoscere i progetti non salvati (asterisco nel titolo).
+* Comprendere il formato di salvataggio predefinito (.pod) e l'opzione "Salva con nome".
+* Gestire più progetti aperti contemporaneamente.
 
-#### Scaricare e Installare ProjectLibre
-* **Visita il sito ufficiale**: Il primo passo è andare su [projectlibre.com](https://www.projectlibre.com).
-* **Trova il link di download**: Clicca sul pulsante "**Download**". Verrai reindirizzato a [sourceforge.net](https://sourceforge.net/), una piattaforma sicura da cui potrai scaricare il file d'installazione.
-* **Processo di installazione**: Una volta scaricato, esegui il file e segui le istruzioni. Potrebbe apparire una schermata per inserire un'email, ma sappi che è un passaggio opzionale e puoi tranquillamente saltarlo per procedere con l'installazione.
+### 3. L'Interfaccia: Ribbon, Finestre e Schede
+* Familiarizzare con la "Ribbon", la barra degli strumenti superiore, che contiene tutti gli strumenti.
+* Utilizzare le "tooltip" (informazioni a comparsa) per capire la funzione di ogni strumento passando il mouse.
+* Capire come annullare o ripetere le modifiche.
+* Gestire le impostazioni della lingua.
+* Esplorare le schede principali: File, Attività, Risorse, Visualizza.
 
-#### Il Tuo Primo Progetto
-Appena avviato ProjectLibre, ti verrà chiesto di scegliere tra "**Crea Progetto**" o "**Apri Progetto**". Seleziona "**Crea Progetto**" per dare vita alla tua prima pianificazione.
+### 4. Gestione delle Attività e della Work Breakdown Structure (WBS)
+* **Cos'è la WBS?** Comprendere che è una tecnica per scomporre un progetto in parti elementari (work breakdown elements) per capirne meglio la struttura e comunicare le fasi agli stakeholder. Può essere paragonata alla programmazione top-down.
+* **Work Package**: Identificare le azioni finali da svolgere nell'ultimo livello gerarchico della WBS, chiamate "work package". Un work package è descritto chiaramente, assegna un compito a un solo responsabile e include attività, obiettivi, risorse (umane e materiali), date di inizio/fine, output (deliverable).
+* **Inserire Attività e Strutturare la WBS**:
+    * Comprendere la struttura dell'interfaccia principale: Tabella delle Attività (sinistra) e Diagramma di Gantt (destra).
+    * Inserire nuove attività nella tabella.
+    * Creare sotto-attività (indentazione) usando "Aumenta Rientro" (Increase Indent) nella scheda "Attività" per costruire la gerarchia della WBS. Le attività raggruppate visualizzano la durata dell'attività secondaria più lunga.
+    * Applicare la "regola del 100%" alla WBS: ogni livello del progetto deve rappresentare il 100% del lavoro che lo compone, e la somma dei livelli inferiori deve dare il 100% del loro livello padre.
+    * Eliminare e inserire righe per le attività.
+* **Impostare la Durata delle Attività**:
+    * Specificare la durata (es. "3d" per giorni, "4h" per ore, "10m" per minuti).
+    * Utilizzare il punto interrogativo (es. "3?") per indicare che una durata è prevista ma non certa. È possibile anche inserire una colonna "previsto" per spuntare se la durata è certa o meno.
+* **Impostazioni del Calendario**:
+    * Visualizzare il calendario e impostare i giorni non lavorativi (es. sabato e domenica) per non contarli nel calcolo del tempo.
+    * Impostare le ore lavorative per giorno, settimana e mese (es. 8 ore/giorno, 40 ore/settimana, 20 giorni/mese).
+    * Impostare un vincolo di avvio per un'attività o l'intero progetto (es. "non iniziare prima del...").
 
-Si aprirà una finestra dove dovrai inserire le informazioni fondamentali del tuo nuovo progetto:
+### 5. I Predecessori e i Legami tra Attività
+* Comprendere il concetto di dipendenza tra attività.
+* **Conoscere i tipi di legami**:
+    * Finish-to-Start (FS) (predefinito): una attività inizia dopo che l'altra finisce.
+    * Start-to-Start (SS): l'inizio di un'attività dipende dall'inizio di un'altra.
+    * Finish-to-Finish (FF): la fine di un'attività dipende dalla fine di un'altra.
+    * Start-to-Finish (SF): l'inizio di un'attività è subordinato alla fine di un'altra.
+* **Assegnare i predecessori**:
+    * Utilizzando la colonna "Predecessori" (inserendo il numero di riga dell'attività precedente e il tipo di legame, es. "6" o "6SS").
+    * Trascinando il mouse direttamente nel Diagramma di Gantt.
+    * Utilizzando lo strumento "Inserisci Collegamento".
+* Eliminare i legami tra attività.
+* Assegnare più predecessori a una singola attività, separandoli con un punto e virgola (es. "10;12").
 
-* **Nome Progetto**: Un titolo chiaro che identifichi il tuo progetto (es. "Lancio Nuovo Prodotto X").
-* **Responsabile**: La persona o il team a cui è affidata la responsabilità del progetto.
-* **Data di Avvio**: La data in cui il progetto è previsto iniziare. Puoi anche impostare una data di fine, e ProjectLibre adatterà la data di avvio di conseguenza, se necessario.
+### 6. Il Diagramma di Gantt
+* Il **Diagramma di Gantt** è una rappresentazione grafica del progetto nel tempo, che mostra le attività, la loro durata e le dipendenze.
+* È un supporto per la WBS, visualizzando i tempi di sviluppo e le relazioni tra attività.
+* Permette di monitorare e modificare le date del progetto in corso d'opera.
+* Può mostrare i collegamenti tra attività (frecce) e le righe della griglia del calendario.
 
-Clicca **OK** per confermare e accedere all'interfaccia principale.
+### 7. Le Risorse
+* **Creazione delle Risorse**: In ProjectLibre è possibile inserire risorse di tipo "Lavoro" (persone) o "Materiale" (es. carta, computer). Per le risorse di tipo "Lavoro", si impostano il compenso orario standard e quello straordinario. Per le risorse "Materiale", si imposta il costo per utilizzo.
+* **Assegnazione delle Risorse**: Le risorse vengono associate alle attività per indicare chi o cosa è coinvolto. I nomi delle risorse appaiono accanto alle barre nel Diagramma di Gantt.
+* **Impatto delle Risorse sulla Durata**: Di default, ProjectLibre può ridurre la durata di un'attività se vengono assegnate più persone ( "unità fissa"). Se si vuole che la durata rimanga invariata nonostante più risorse, si può impostare l'attività come a "durata fissa".
 
-[TORNA SU☝️](#top)
+### 8. I Milestone
+* I **milestone** (pietre miliari) sono punti focali o traguardi importanti nel progetto.
+* Vengono utilizzati per verificare lo stato di avanzamento dei lavori e capire a che punto si è arrivati.
+* In ProjectLibre, un milestone viene inserito come una normale attività, ma con una durata di 0 (zero) giorni. Nel Diagramma di Gantt appaiono come un simbolo specifico. Solitamente non ci sono più di 3-4 milestone oltre quello iniziale e finale.
 
----
-<a id="due"></a>
-### 2. Familiarizzare con l'Interfaccia: Il Tuo Centro di Controllo 
-L'interfaccia di ProjectLibre è progettata per essere intuitiva e funzionale. È suddivisa principalmente in due aree e una barra degli strumenti superiore:
+### 9. Le Baseline
+* Una **baseline** è una "fotografia" dello stato di avanzamento del progetto in un determinato momento, solitamente all'inizio.
+* Permette di confrontare lo stato attuale del progetto con la sua pianificazione originale.
+* Se si verifica uno scostamento dei tempi rispetto alla baseline, è possibile correggere il progetto (es. accorciare i tempi, aggiungere risorse) e salvare una nuova baseline per futuri confronti.
 
-* **Tabella delle Attività (a sinistra)**: Questa è la tua area di lavoro principale per inserire e gestire i dettagli delle attività, come nomi, durate, date di inizio e fine, e predecessori.
-* **Diagramma di Gantt (a destra)**: La rappresentazione grafica del tuo progetto nel tempo. Qui vedrai le barre che visualizzano la durata delle attività e le dipendenze. Le aree grigie nel diagramma indicano solitamente i giorni non lavorativi, come i weekend.
+### 10. La Critical Path Method (CPM) su ProjectLibre
+* Capire cos'è il "**Cammino Critico**": il percorso più lungo di attività interconnesse nel progetto.
+* Comprendere che il cammino critico determina la durata complessiva del progetto.
+* Identificare le attività critiche, che sono visualizzate in rosso nel Diagramma di Gantt. Le attività non critiche sono in blu.
 
-#### La Ribbon: La Tua Cassetta degli Attrezzi
-Nella parte superiore dell'interfaccia, troverai la "**Ribbon**", una barra degli strumenti che raggruppa tutte le funzionalità per categoria. Se passi il mouse su un'icona, apparirà una "**tooltip**" che ti spiegherà la sua funzione, rendendo l'apprendimento rapido e semplice.
-
-* **File**: Per salvare, aprire, chiudere progetti e per opzioni di stampa o esportazione.
-* **Attività**: Contiene gli strumenti per la gestione delle attività, le diverse "**viste**" (come il Diagramma di Gantt o la WBS) e le opzioni di copia/incolla (clipboard).
-* **Risorse**: Qui gestirai le risorse del tuo progetto (persone, attrezzature) e le relative visualizzazioni.
-* **Visualizza**: Per cambiare la modalità di visualizzazione del progetto, applicare filtri e gestire lo zoom.
-
-#### Salvare il Tuo Lavoro
-Un aspetto fondamentale: se vedi un asterisco (\*) accanto al nome del tuo progetto nella parte superiore della finestra, significa che hai delle modifiche non salvate. Salva il tuo lavoro regolarmente cliccando sull'icona "**Salva**" o usando la scorciatoia **Ctrl+S**. I progetti vengono salvati con l'estensione predefinita `.pod`.
-
-[TORNA SU☝️](#top)
-
----
-<a id="tre"></a>
-### 3. Gestire le Attività: Il Cuore del Tuo Progetto 
-Le attività sono i mattoni del tuo progetto. Imparare a gestirle efficacemente è essenziale per una pianificazione robusta.
-
-#### Inserire e Impostare le Attività
-* **Inserire una nuova attività**: Clicca semplicemente nella colonna "**Nome**" della Tabella delle Attività e digita il nome desiderato.
-* **Impostare la durata**: Nella colonna "**Durata**", puoi specificare il tempo stimato per l'attività. Di default, ProjectLibre imposta "**1g**" (1 giorno) con un punto interrogativo, indicando una stima provvisoria. Puoi modificare questo valore usando:
-    * "**3g**" per 3 giorni
-    * "**4h**" per 4 ore
-    * "**10m**" per 10 minuti
-
-La data di chiusura dell'attività si aggiornerà automaticamente in base alla durata inserita.
-
-#### Creare Sotto-Attività (Indentazione)
-Per organizzare il tuo progetto in una struttura gerarchica (come una **WBS - Work Breakdown Structure**), puoi creare sotto-attività. Questo ti aiuta a suddividere il lavoro in parti più piccole e gestibili.
-
-1.  Seleziona l'attività che vuoi rendere una sotto-attività.
-2.  Nella scheda "**Attività**" della Ribbon, clicca su "**Aumenta Rientro**" (Increase Indent).
-
-L'attività selezionata verrà rientrata, diventando una dipendenza dell'attività superiore. L'attività genitore diventerà un "**gruppo**" che puoi espandere o collassare. La durata del gruppo si adeguerà automaticamente alla durata della sotto-attività più lunga al suo interno. Per annullare il rientro, usa "**Diminuisci Rientro**" (Decrease Indent).
-
-#### Eliminare o Inserire Righe
-* **Eliminare un'attività**: Seleziona l'attività e premi il tasto **Canc**.
-* **Inserire una riga vuota**: Posizionati nella riga dove desideri inserire una nuova attività e clicca su "**Inserisci Attività**" nella Ribbon.
-
-[TORNA SU☝️](#top)
-
----
-<a id="quattro"></a>
-### 4. Collegare le Attività: I Predecessori e i Legami 
-Le dipendenze tra attività sono fondamentali per definire la sequenza logica del tuo progetto. Un'attività potrebbe non poter iniziare prima che un'altra sia completata.
-
-#### Tipi di Legami
-ProjectLibre supporta i tipi di dipendenza standard del Project Management:
-
-* **Fine-Inizio (FS - Finish-to-Start)**: Il tipo più comune. L'attività successiva inizia solo dopo che la precedente è completata. (Es. "Progettazione" deve finire prima che "Sviluppo" possa iniziare). Questo è il legame predefinito.
-* **Fine-Fine (FF - Finish-to-Finish)**: Un'attività può finire solo dopo che un'altra è finita. (Es. "Test finale" può finire solo dopo che "Sviluppo" è finito).
-* **Inizio-Inizio (SS - Start-to-Start)**: Un'attività può iniziare solo dopo che un'altra è iniziata. (Es. "Installazione infrastruttura" può iniziare dopo che "Acquisto server" è iniziato).
-* **Inizio-Fine (SF - Start-to-Finish)**: Un'attività deve iniziare prima che un'altra possa finire. (Meno comune, es. "Vecchia funzionalità disattivata" deve iniziare prima che "Nuova funzionalità attivata" possa finire).
-
-#### Assegnare i Predecessori
-Ci sono diversi modi per creare i legami nel tuo progetto:
-
-* **Tramite la colonna "Predecessori"**: Il metodo più diretto. Nella colonna "**Predecessori**" della Tabella delle Attività, digita il numero di riga dell'attività che deve precedere quella corrente. Ad esempio, se l'attività sulla riga 6 deve finire prima che inizi l'attività corrente, scrivi "**6**".
-* **Trascinando nel Diagramma di Gantt**: Un metodo visivo. Nel Diagramma di Gantt, trascina una freccia dalla fine della barra dell'attività predecessore all'inizio della barra dell'attività successiva.
-* **Usando lo strumento "Inserisci Collegamento"**: Seleziona le due attività che vuoi collegare e usa lo strumento "**Inserisci Collegamento**" (Insert Link) nella Ribbon.
-
-Le dipendenze sono visualizzate come frecce nel Diagramma di Gantt, indicando il flusso logico del tuo progetto. Per eliminare un legame, puoi selezionare l'attività e rimuovere il numero di riga nella colonna "**Predecessori**" o selezionare la freccia nel Gantt e premere "**Canc**".
-
-[TORNA SU☝️](#top)
+### 11. I Report
+* ProjectLibre offre diversi report per visualizzare i risultati del progetto:
+    * **Network Diagram**: Rappresentazione grafica delle attività e dei loro collegamenti/sequenze.
+    * **WBS**: Mostra i livelli della WBS con i costi associati a ogni livello.
+    * **Uso Attività/Uso Risorse**: Elenchi dettagliati delle risorse utilizzate in ogni attività e il loro impegno.
+    * **Istogramma**: Per ogni risorsa, mostra l'utilizzo nel tempo.
+    * **Filtri**: Permettono di visualizzare attività specifiche (es. attività extra budget).
+* Il Diagramma di Gantt stesso è uno strumento flessibile che aiuta a ridefinire il progetto.
 
 ---
-<a id="cinque"></a>
-### 5. Il Cammino Critico (CPM): La Chiave della Durata del Progetto 
-Come Project Manager, la comprensione del **Cammino Critico (Critical Path Method - CPM)** è fondamentale per la gestione dei tempi.
 
-#### Cos'è il Cammino Critico?
-Il **Cammino Critico** è la sequenza più lunga di attività interconnesse nel tuo progetto, dalla data di inizio alla data di fine. È "**critico**" perché determina la durata complessiva minima del progetto. Qualsiasi ritardo in un'attività che fa parte del cammino critico si tradurrà direttamente in un ritardo dell'intero progetto. Le attività non sul cammino critico, invece, hanno un certo margine di flessibilità (chiamato "**slack**" o "**float**") senza influenzare la data di fine complessiva.
+## Breve Guida Semplice a ProjectLibre (Aggiornata)
 
-#### Identificare il Cammino Critico in ProjectLibre
-ProjectLibre ti aiuta a identificare visivamente il cammino critico:
+ProjectLibre è un software gratuito e open-source che ti aiuta a gestire i tuoi progetti, offrendo una valida alternativa a Microsoft Project. È supportato da una community online e dispone di documentazione.
 
-* Nel Diagramma di Gantt, le attività che fanno parte del cammino critico sono evidenziate in **rosso**.
-* Le attività non critiche sono visualizzate in **blu**.
+<a id="introduzione-download-guida"></a>
+### 1. Iniziare: Download e Installazione
+Per iniziare, vai su [projectlibre.com](https://www.projectlibre.com). Clica sul pulsante "**Download**" e verrai reindirizzato a [sourceforge.net](https://sourceforge.net/), dove potrai scaricare l'installer. Puoi anche trovare un link diretto sul sito del produttore ProjectLibre open source. Una volta scaricato, esegui l'installazione guidata.
 
-Questa distinzione visiva ti permette di concentrare la tua attenzione sulle attività più sensibili per mantenere il progetto in linea con le scadenze. È importante notare come l'assegnazione di più predecessori a una singola attività possa influenzare la durata e il cammino critico, e come i legami tra attività raggruppate (sotto-attività) vengano considerati nel calcolo.
+[⬆️ Torna all'inizio](#inizio-pagina)
 
-[TORNA SU☝️](#top)
+<a id="creazione-gestione-progetto-guida"></a>
+### 2. Creare il Tuo Primo Progetto
+Quando avvii ProjectLibre, scegli "**Crea Progetto**". Inserisci il **Nome Progetto**, il **Responsabile** e la **Data di Avvio** (o chiusura, che regolerà l'avvio). Clica "**OK**". Ricorda di salvare il tuo progetto (Ctrl+S o icona "**Salva**") per non perdere le modifiche (l'asterisco nel titolo indica modifiche non salvate). I progetti vengono salvati con estensione `.pod`. Puoi avere più progetti aperti contemporaneamente.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="interfaccia-ribbon-guida"></a>
+### 3. Familiarizzare con l'Interfaccia
+L'interfaccia principale è divisa in due parti:
+* **Tabella delle Attività (a sinistra)**: Qui gestisci i dettagli delle tue attività.
+* **Diagramma di Gantt (a destra)**: Una rappresentazione grafica del tuo progetto nel tempo.
+In alto, la "**Ribbon**" contiene tutti i comandi. Passando il mouse sulle icone, vedrai una descrizione (tooltip). Puoi annullare o ripetere le modifiche. Le schede principali sono **File**, **Attività**, **Risorse**, **Visualizza**.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="gestione-attivita-wbs-guida"></a>
+### 4. Gestire Attività e Strutturare il Progetto (WBS)
+* **Cos'è la WBS?** La **Work Breakdown Structure (WBS)** ti aiuta a scomporre un progetto in parti più piccole e gestibili, creando una gerarchia. Le "azioni" finali di questa scomposizione sono chiamate "**work package**". Ogni parte del progetto deve rispettare la "**regola del 100%**", ovvero la somma delle sue sotto-parti deve rappresentare il 100% del lavoro di quel livello.
+* **Inserire e Organizzare Attività**: Digita il nome dell'attività nella colonna "**Nome**". Per creare sotto-attività (e quindi costruire la tua WBS), seleziona l'attività e usa "**Aumenta Rientro**" (Increase Indent) nella scheda "**Attività**". Le attività raggruppate (i "livelli" della WBS) mostreranno la durata della sotto-attività più lunga al loro interno.
+* **Durata delle Attività**: Nella colonna "**Durata**", inserisci un numero seguito da "**g**" (giorni), "**h**" (ore) o "**m**" (minuti). Se la durata è solo una stima, puoi aggiungere un punto interrogativo (es. "**3g?**") per indicare che non è certa.
+* **Calendario e Vincoli**: Puoi impostare i giorni non lavorativi (es. sabato e domenica) e le ore lavorative giornaliere, settimanali o mensili tramite il pulsante "**Calendario**". Puoi anche impostare un vincolo di avvio per un'attività o il progetto, come "non iniziare prima del...".
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="predecessori-legami-guida"></a>
+### 5. Collegare le Attività (Predecessori)
+Le attività possono dipendere l'una dall'altra. Per collegarle:
+* **Colonna "Predecessori"**: Inserisci il numero di riga dell'attività che deve precedere.
+* **Tipi di Legame**: Di default, ProjectLibre usa il legame "**Fine-Inizio**" (FS), cioè un'attività inizia solo dopo che la precedente è finita. Puoi cambiarlo (doppio click sulla cella dei predecessori) in "**Inizio-Inizio**" (SS) (entrambe iniziano insieme), "**Fine-Fine**" (FF) o "**Inizio-Fine**" (SF).
+* **Trascina nel Gantt**: Clica sull'estremità di una barra nel Gantt e trascina sulla barra dell'attività successiva per creare un legame.
+* **Strumento "Inserisci Collegamento"**: Seleziona le attività e usa questo strumento nella Ribbon.
+* Per assegnare più predecessori a un'attività, inserisci i numeri di riga separati da un punto e virgola (es. "**10;12**") nella colonna "**Predecessori**".
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="diagramma-gantt-guida"></a>
+### 6. Il Diagramma di Gantt
+È la rappresentazione visiva del tuo progetto. Mostra le attività come barre, la loro durata e i legami (frecce) tra di esse. Ti aiuta a vedere come il progetto si sviluppa nel tempo e a monitorare i progressi.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="risorse-guida"></a>
+### 7. Le Risorse
+* **Creare Risorse**: Nella scheda "**Risorse**", puoi aggiungere persone (tipo "**Lavoro**") o materiali (tipo "**Materiale**"). Per le persone, inserisci un costo orario. Per i materiali, un costo per utilizzo.
+* **Assegnare Risorse**: Torna nella scheda "**Attività**". Nella colonna "**Nome Risorse**", fai doppio clic o usa il pulsante "**Assegna Risorse**" per scegliere chi o cosa lavorerà su un'attività. I nomi delle risorse appariranno accanto alle attività nel Gantt.
+* **Durata Fissa vs. Unità Fissa**: Se assegni più risorse a un'attività, ProjectLibre potrebbe ridurre automaticamente la durata (modalità "**unità fissa**"). Se vuoi che la durata dell'attività rimanga quella impostata, indipendentemente dal numero di risorse, puoi impostarla come "**durata fissa**".
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="milestone-guida"></a>
+### 8. I Milestone
+I **milestone** sono punti chiave o traguardi importanti nel tuo progetto. Servono a monitorare l'avanzamento. Per inserirli, crea un'attività e imposta la sua durata a 0 (zero) giorni. Nel Diagramma di Gantt, saranno rappresentati da un simbolo specifico.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="baseline-guida"></a>
+### 9. Le Baseline
+Una **baseline** è una "fotografia" del tuo progetto in un momento specifico (di solito all'inizio). Ti permette di confrontare lo stato attuale del progetto con la sua pianificazione originale. Se il progetto devia dalla baseline, puoi apportare correzioni e salvare una nuova baseline per tenere traccia delle modifiche.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="cpm-guida"></a>
+### 10. Il Cammino Critico (Critical Path Method - CPM)
+Il **Cammino Critico** è la sequenza di attività più lunga del tuo progetto che determina la sua durata totale. Le attività che ne fanno parte sono visualizzate in **rosso** nel Diagramma di Gantt, indicando che qualsiasi ritardo su di esse ritarderà l'intero progetto.
+
+[⬆️ Torna all'inizio](#inizio-pagina)
+
+<a id="report-guida"></a>
+### 11. I Report
+ProjectLibre può generare diversi report per analizzare il tuo progetto:
+* **Network Diagram**: Mostra i collegamenti tra tutte le attività.
+* **WBS**: Dettaglia i costi per ogni livello della tua Work Breakdown Structure.
+* **Uso Attività** e **Uso Risorse**: Riportano dettagli sull'impegno delle risorse e sull'utilizzo delle attività.
+* **Istogramma**: Grafici che mostrano l'utilizzo delle risorse nel tempo.
+* **Filtri**: Permettono di visualizzare attività specifiche (es. attività extra budget).
+
+[⬆️ Torna all'inizio](#inizio-pagina)
